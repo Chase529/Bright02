@@ -1,0 +1,35 @@
+.none_input{
+	background-color:transparent;
+	padding:0px;
+	outline:none;
+	border:0px;
+}
+.role_has{
+     background-color: #55d44d;
+     margin-right: 15px;
+     color: white;
+     text-align:center;
+ }
+ .role_no{
+     background-color: #e84d11;
+     margin-right: 15px;
+     color: white;
+     text-align:center;
+ }
+ .ws_btn{
+     background-color: #00acff;
+     padding: 3px;
+     outline: none;
+     border: none;
+ }
+ .close{
+     position:absolute;
+     color:white;
+     text-align:center;
+     width:16px;
+     height:16px;
+     border-radius:8px;
+     background-color:black;
+     font-size:4px;
+     line-height:13px
+ }

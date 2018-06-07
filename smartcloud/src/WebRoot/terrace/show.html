@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ui-box.css">
+        <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/ui-color.css">
+        <link rel="stylesheet" href="css/appcan.icon.css">
+        <link rel="stylesheet" href="css/appcan.control.css">
+        <link rel="stylesheet" href="settings/css/settings.css">
+        <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.css" rel="stylesheet">
+        <link href="css/pure-min.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/grids.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/album.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+	    <link rel="stylesheet" href="css/styles.css">
+				<!--end-->
+    </head>
+    <style type="text/css">
+    	.content{
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			border: none;
+			
+		}
+		#album{
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			height: 100%;
+			border: none;
+		}
+    </style>
+    <body class="" ontouchstart>
+        <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+            <!--<div class="uh bc-head  ubb bc-border" data-control="HEADER" id="Header">
+                <div class="ub">
+                    <div class="nav-btn" id="nav-left">
+                        <div class="ub-img1 icon-back ulev2">
+                        </div>
+                    </div>
+                    <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0" style="color:white">现场监控点</h1>
+                    <div class="nav-btn" id="nav-right">
+                        <div class="fa  fa-1g  ub-img1">
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="" data-control="CONTENT" id="ScrollContent" style="height: 100%;box-sizing: border-box;padding: 0;">
+              <div class="scrollbox" style="height: 100%;">
+              	<div class="content">
+
+<div class="album" id="album">
+	 <div class="album-image-md" id="album-image-md">
+		  	<!--<p class="album-image-bd">-->
+		  	<div style="background: url(imgs/01.jpg) no-repeat center center/cover" class="album-image" id="album-image">
+		  	</div>
+		  	<!--</p>-->
+		  <ul class="album-image-nav hide" id="album-image-nav">
+		  	  <li class="album-image-nav-left-block" id="album-image-nav-left-block"><a href="#prev-image" class="album-image-btn-prev" id="album-image-btn-prev">‹</a></li>
+			  <li class="album-image-nav-right-block" id="album-image-nav-right-block"><a href="#next-image" class="album-image-btn-next" id="album-image-btn-next">›</a></li>
+		  </ul>
+		  <p class="album-image-loading-overlay hide" id="album-image-loading-overlay"><img src="imgs/loading.gif" alt="loading..." width="100" height="100" /></p>
+	 </div>
+	 <div class="album-carousel" id="album-carousel">
+	 	  <a href="#prev-group" class="album-carousel-btn-prev" id="album-carousel-btn-prev">‹</a>
+		  <div class="album-carousel-zone" id="album-carousel-zone">
+		  <ul class="album-carousel-list" id="album-carousel-list">
+		  	  <li class="album-carousel-thumb album-carousel-thumb-selected"><a href="imgs/01.jpg"><img src="imgs/s-01.jpg" alt="相册图片-示例图片（1）" width="230" height="144" /></a></li>
+		  	  <li class="album-carousel-thumb"><a href="imgs/02.jpg"><img src="imgs/s-02.jpg" alt="相册图片-示例图片（2）" width="230" height="144" /></a></li>
+		  	  <li class="album-carousel-thumb"><a href="imgs/03.jpg"><img src="imgs/s-03.jpg" alt="相册图片-示例图片（3）" width="230" height="144" /></a></li>
+		  	  <li class="album-carousel-thumb"><a href="imgs/04.jpg"><img src="imgs/s-04.jpg" alt="相册图片-示例图片（4）" width="230" height="144" /></a></li>
+		  	  <li class="album-carousel-thumb"><a href="imgs/05.jpg"><img src="imgs/s-05.jpg" alt="相册图片-示例图片（5）" width="230" height="144" /></a></li>
+		  	  <li class="album-carousel-thumb"><a href="imgs/06.jpg"><img src="imgs/s-06.jpg" alt="相册图片-示例图片（6）" width="230" height="144" /></a></li>
+		  </ul>
+		  </div>
+	 	  <a href="#next-group" class="album-carousel-btn-next" id="album-carousel-btn-next">›</a>
+	 </div>
+</div>
+</div>
+              </div>
+            </div>
+        </div>
+        <script src="js/appcan.js"></script>
+        <script src="js/appcan.control.js"></script>
+        <script src="js/appcan.scrollbox.js"></script>
+        <script src="js/template.import.js"></script>
+        <script src="js/appcan.listview.js"></script>
+        <script src="js/common.js"></script>
+        <script src="https://cdn.bootcss.com/Swiper/4.0.0-beta.1/js/swiper.min.js"></script>
+
+        <!--最后一个页面用的js-->
+  		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	    <script src="js/modernizr-2.7.1-csstransforms3d-canvas-touch.js"></script>
+	    <script src="js/megapix-image.js"></script>
+	    <script src="http://www.jq22.com/jquery/three.min.js"></script>
+	    <script src="js/Detector.js"></script>
+	    <script src="js/CSS3DRenderer.js"></script>
+	    <script src="js/theta-viewer.min.js"></script>
+		<!--end-->
+		<!--首页用的js-->
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.pano.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/show.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/resize.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/album.js"></script>
+		<script type="text/javascript">
+		var Album = new jQuery.Album();
+		</script>
+    </body>
+    <script type="text/javascript">
+    	$("#nav-left").click(function(){
+//  		window.location.href="showindex.html"
+    		appcan.window.close(-1);
+    	})
+    </script>
+</html>
