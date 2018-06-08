@@ -148,7 +148,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="753" />
     <option name="y" value="19" />
     <option name="width" value="1400" />
@@ -417,15 +417,15 @@
       <workItem from="1523840726881" duration="10000" />
       <workItem from="1523842805197" duration="3604000" />
       <workItem from="1528421407503" duration="1789000" />
-      <workItem from="1528426960282" duration="1511000" />
+      <workItem from="1528426960282" duration="2272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76493000" />
+    <option name="totallyTimeSpent" value="77254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
+    <frame x="-9" y="-9" width="2578" height="1408" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42487884" sideWeight="0.50159746" order="7" side_tool="true" content_ui="tabs" />
@@ -702,7 +702,7 @@
         <state relative-caret-position="393">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,7 +764,7 @@
         <state relative-caret-position="189">
           <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
